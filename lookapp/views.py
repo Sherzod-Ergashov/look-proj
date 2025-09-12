@@ -45,5 +45,5 @@ class HomePageView(View):
                     'child': '',
                     'grandchild': ''
                 })
-        return render(request, 'index.html', context={'rows': rows})
+        return render(request, 'base.html', context={'rows': rows})
 
